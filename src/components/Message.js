@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { formatRelative } from 'date-fns';
-//import firebase from 'firebase/app';
+
 
 
 
@@ -25,7 +25,7 @@ const Message = ({
 }) => {
   if (!text) return null;
 
-  //const messageClass = displayName === auth.currentUser.displayName ? 'align-self: flex-end;' : '';
+ 
 
   return (
     <div className="px-4 py-4 rounded-md hover:bg-gray-50 dark:hover:bg-coolDark-600 overflow-hidden flex items-start ">
